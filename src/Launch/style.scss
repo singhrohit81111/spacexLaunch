@@ -1,0 +1,174 @@
+ .launches{
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+ .hd{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .appBar{
+    height: 74px;
+    width: 100vw;
+    overflow-y: hidden;
+    border-bottom: 0.5px solid black;
+    
+    .ins{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 14px 0px 19px;
+        .left{
+          button{
+            font-size: 16px;
+            margin: 7px 5px 0px 2px;
+            outline: 1px solid black;
+            border: none;
+            outline: 1px solid black;
+            border-radius: 5px;
+            height: 44px;
+            padding: 0px 18px;
+        }
+        }
+        .right{
+          
+          label{
+            img{
+              height: 40px;
+              margin-top: 18px;
+            }
+          }
+          label:hover{
+            cursor: pointer;
+          }
+
+        }
+    }
+  }
+.bdy{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+ .cd{
+    border:1px solid gray;
+    outline: none;
+   height: fit-content;
+   width: 80vw;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 7px;
+   margin-bottom:10px;
+    .logoInfo{
+          height: 30px;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          width: 80vw;
+        img {
+            height: 40px;
+            width: 40px;
+         }
+         .icons{
+          height:20px;
+          margin: 10px 0px 0px 4px;
+          .ic{
+            margin-right: 2px;
+            height: 20px;
+            img{
+              height: 16px;
+              width: 19px;
+            }
+          }
+      }
+         .logoText{
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-top: 13px;
+            margin-left: 7px;
+         }
+
+    }
+    .infoLeft{
+        height: fit-content;
+        width:80vw;
+        display:grid;
+        grid-template-rows: 22px 22px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                         'a1 a2'
+                         'a3 a4'
+                         'a5 a5';
+        .info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width:39vw;
+            position: static;
+            .dt1{
+                font-weight:650;
+                
+            }
+            .dt2{
+
+            }
+            #a{
+                grid-area: a1;
+            }
+            #b{
+                grid-area: a2;
+            }
+            #c{
+                grid-area: a3;
+            }
+            #d{
+                grid-area: a4;
+            }
+            #e{
+              grid-area: a5;
+            }
+            .details{
+              .barr{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                .title{
+                     font-size: 23px;
+                }
+                
+                .entity{
+                  font-size: 23px;
+                }
+              }
+              .des{
+                width: 80vw;
+                text-align: left;
+              }
+            }
+        }
+    }
+}
+  }
+  .cd:hover{
+    
+    background-color:rgb(133, 130, 130);
+  }
+  .launchHovers:hover{
+    cursor: pointer;
+  }
+  .upcomingHovers:hover{
+    cursor: pointer;
+  }
+  .pastHovers:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,52 @@
+.container{
+    height: 100vh;
+    width: 100vw;   
+    overflow-y: hidden;
+}  
+.insideContainer{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.info{
+    position: absolute;
+    top: 34%;
+    right: 50%;
+    left: 32%;
+    width:38vw;
+}
+#videoBG{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.text{
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+}
+.bt{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border:none;
+    outline: none;
+    width: 38vw;
+    border-radius: 0px;
+    transition: border-radius 2s;
+    padding: 6px;
+}
+.bt:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.hd{
+    background-color: black;
+    height: 50px;
+    
+}
