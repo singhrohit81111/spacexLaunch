@@ -3,12 +3,12 @@ import Launches from '../Launch/Launches';
 import Upcoming from '../Launch/Upcoming';
 import Past from '../Launch/Past';
 import Home from '../components/Home';
-import { BrowserRouter, Route ,Routes } from 'react-router-dom'
+import { HashRouter, Route ,Routes } from 'react-router-dom'
 
 export default function 
 () {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
         <Route path="/">
             <Route index element={<Home/>}/>
@@ -17,6 +17,6 @@ export default function
             <Route path="past" element={<Past/>}/>
         </Route>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
