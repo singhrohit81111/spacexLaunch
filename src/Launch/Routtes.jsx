@@ -8,13 +8,13 @@ import { BrowserRouter , Route ,Routes } from 'react-router-dom'
 export default function 
 () {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
     <Routes>
-        <Route path="/spacexLaunch">
+        <Route path="/">
             <Route index element={<Home/>}/>
-            <Route path="/launches" element={<Launches/>}/>
-            <Route path="/upcoming" element={<Upcoming/>}/>
-            <Route path="/past" element={<Past/>}/>
+            <Route path="launches" element={<Launches/>}/>
+            <Route path="upcoming" element={<Upcoming/>}/>
+            <Route path="past" element={<Past/>}/>
         </Route>
     </Routes>
     </BrowserRouter >
