@@ -3,7 +3,7 @@ import Launches from '../Launch/Launches';
 import Upcoming from '../Launch/Upcoming';
 import Past from '../Launch/Past';
 import Home from '../components/Home';
-import { BrowserBrowserRouter, Router , Route ,Routes } from 'react-router-dom'
+import { BrowserRouter, Router , Route ,Routes } from 'react-router-dom'
 
 export default function 
 () {
